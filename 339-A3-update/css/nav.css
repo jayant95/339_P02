@@ -29,26 +29,34 @@
 	display: flex;
 }
 
-.nav-item{
-	padding: 0.25em 1em;
-	margin:0.25em 0;
-	border:#ffffff solid 1px;
-	border-right: #495874 solid 1px;
+.nav-item {
+	font-size: 1.2rem;
+	font-family: "Brandon-reg";
+	padding: 1em 1.5em;
+	line-height: 150%;
+	/*border:#ffffff solid 1px;*/
+	/*border-right: #495874 solid 1px;*/
 	text-align: center;
 	background-color: white;
 }
 
-.nav-item a{
+.nav-item a {
 	text-decoration: none;
 	color: #495874;
 	font-weight: lighter;
 }
+
+.nav-item a:hover {
+	color: #327bda;
+	border-bottom: 1px solid #327bda;
+}
+
 .nav-item:nth-of-type(3) {
 	border-right: #ffffff solid 1px;
 }
 
 .nav-item:hover{
 	transition: 0.2s;
-	border: #495874 solid 1px;
+	/*border: #495874 solid 1px;*/
 
 }
