@@ -1,0 +1,147 @@
+body{
+	color: #495874;
+}
+p{
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color: #327bda;
+	font-weight: 600;
+}
+
+nav a{
+	display: block;
+}
+
+.button{
+	display: block;
+	text-align: center;
+	color: white;
+	padding:0.75em 1em;
+	margin:0.5em;
+	font-weight: normal;
+}
+
+.card{
+	padding:2em;
+	background-color: #f1f1f1;
+	margin:1em 0.5em;
+}
+
+.fixed-sizing{
+	width: 6em;
+}
+
+header{
+	margin-left: 10em;
+}
+
+label{
+	color: white;
+	padding:0.75em 1em;
+	background-color: #327bda;
+	border: 2px solid #327bda;
+	margin:0;
+}
+
+li{
+	line-height: 1.5em;
+	color: #327bda;
+}
+
+input{
+	padding:0.75em 1em;
+	border: 2px solid #327bda;
+	color: #327bda;
+	margin:0;
+}
+
+.display-inline{
+	display: inline-flex;
+}
+
+.thumbnail{
+	height: 400px;
+	width: auto;
+}
+
+.swatch{
+	display: inline-flex;
+	width: 6em;
+	height: 4em;
+	background-color: grey;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin:0.5em;
+}
+
+.standard-highlight{
+	background-color: #327bda;
+	color: white;
+}
+
+.extreme-highlight{
+	background-color: #DF8C6B;
+	
+}
+.confirmation{
+	background-color: #32ca9e;
+	color: white;
+}
+.plain{
+	background-color: #ffffff;
+	color: #495874;
+}
+.dark{
+	background-color: #495874;
+	color: white;
+}
+
+.itallic{
+	font-style: italic;
+}
+
+.submit{
+	background-color: #32ca9e;
+		border-color: #32ca9e;
+}
+
+.reset{
+	background-color: #327bda;
+}
+
+.submit:hover{
+	transition: 0.2s;
+	background-color: #7dceb6;
+}
+
+.reset:hover{
+	transition: 0.2s;
+	background-color: #88afe2;
+}
+
+.submit:active{
+	transition: 0.2s;
+	background-color: #32ca9e;
+}
+
+.reset:active{
+	transition: 0.2s;
+	background-color: #327bda;
+}
+
+a{
+	color: #327bda;
+}
+
+a:hover{
+	transition: 0.2s;
+	color: #88afe2;
+}
+
+a:active{
+	transition: 0.2s;
+	background-color: #327bda;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>style guide</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link href="css/grids.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="nav-container">
+		<nav class="block logo">
+			<img src="images/logo-339.png" alt="navem logo" class="logo">
+			NAVEM
+		</nav>
+		<div class="main-nav"> 
+			<nav class="nav-item">
+				<a href="index.html"> style guide </a>
+			</nav>
+			<nav class="nav-item">
+				<a href="diagrams.html"> flow diagrams </a>
+			</nav>
+			<nav class="nav-item">
+				<a href="citations.html"> citations </a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<nav class="block">
+			<a href="#interactive">interactive elements</a>
+			<a href="#text">text styling</a>
+			<a href="#elements">combined elements</a>
+		</nav>
+
+		<div class="main-content"> 
+
+			<section class="block card-container">
+				<h2 id="interactive">INTERACTIVE ELEMENTS</h2>
+				<section class="card">
+					<h3>in-text link</h3>
+					<p>This is a <a href="#">sample</a> of an in-text link</p>
+					<h4>code:</h4>
+					<code> &lt;p&gt;This is a &lt;a href="#"&gt;sample&lt;/a&gt; of an in-text link&lt;/p&gt;</code>
+				</section>
+				<section class="card">
+					<h3>navigation button</h3>
+					<nav class="nav-item fixed-sizing">
+						<a href="#">button </a>
+					</nav>
+					<h4>code:</h4>
+					<code> 
+						&lt;nav class="nav-item fixed-sizing"&gt;
+						&lt;a href="#"&gt;button &lt;/a&gt;
+						&lt;/nav&gt;
+					</code>
+				</section>
+				<section class="card">
+					<h3>form buttons</h3>
+					<input type="submit" name="submit" class="submit button fixed-sizing">
+					<input type="reset" name="reset" class="reset button fixed-sizing">
+					<h4>code:</h4>
+					<code> 
+						&lt;input type="submit" name="submit" class="submit button fixed-sizing"&gt;submit&lt;/a&gt;
+						&lt;input type="reset" name="reset" class="reset button fixed-sizing"&gt;reset&lt;/a&gt;
+					</code>
+				</section>
+				<section class="card">
+					<h3>input field</h3>
+					<form>
+						<label for="form-example">title</label>
+						<input id="form-example" type="text" name="basic-form" value="type here">
+					</form>
+					<h4>code:</h4>
+					<code> 
+						&lt;form&gt;
+						&lt;label for="form-example"&gt;title&lt;/label&gt;
+						&lt;input id="form-example" type="text" name="basic-form" value="type here"&gt;
+						&lt;/form&gt;
+					</code>
+				</section>
+			</section>
+
+
+			<section class="block card-container">
+				<h2 id="text">TEXT STYLING</h2>
+				<section class="card">
+					<h3>headings</h3>
+					<h1>heading 1</h1>
+					<h2>heading 2</h2>
+					<h3>heading 3</h3>
+					<h4>code:</h4>
+					<code> 
+						&lt;h1&gt;heading 1&lt;/h1&gt;
+						&lt;h2&gt;heading 2&lt;/h2&gt;
+						&lt;h3&gt;heading 3&lt;/h3&gt;
+					</code>
+				</section>
+				<section class="card">
+					<h3>paragraphs</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat diam, iaculis ac erat et, commodo ultricies diam. Nullam quam arcu, blandit convallis odio quis, semper ultrices orci. Curabitur eu convallis ligula. Maecenas turpis est, pulvinar ac lacinia a, commodo nec metus. Nam id massa laoreet, condimentum dui sed, aliquet ex. Nam dignissim, eros at rhoncus dapibus, mauris risus ultricies nibh, at ornare tellus ligula ut leo. Vivamus tempus blandit semper. Ut justo tortor, venenatis eu rutrum sit amet, pretium ut dolor. Fusce ac quam tincidunt, consectetur neque non, ullamcorper sapien. Praesent maximus molestie luctus. Phasellus blandit molestie hendrerit. Donec interdum, lectus nec dignissim dapibus, urna tortor interdum urna, in dictum metus eros bibendum mi. Nunc scelerisque metus purus, nec suscipit velit finibus eget. Sed placerat libero sed fringilla accumsan.</p>
+					<h4>code:</h4>
+					<code> 
+						&lt;p&gt; lorem ipsum . . . &lt;/p&gt;
+					</code>
+				</section>
+				<section class="card">
+					<h3>bulleted lists</h3>
+					<ul>
+						<li>this is</li>
+						<li>a <strong>bulleted</strong></li>
+						<li>list example</li>
+					</ul>	
+					<h4>code:</h4>
+					<code>
+						&lt;ul&gt;
+						&lt;li&gt;this is&lt;/li&gt;
+						&lt;li&gt;a &lt;strong&gt;bulleted&lt;/strong&gt;&lt;/li&gt;
+						&lt;li&gt;list example&lt;/li&gt;
+						&lt;/ul&gt;	
+					</code>
+				</section>
+				<section class="card">
+					<h3>numbered lists</h3>
+					<ol>
+						<li>this is</li>
+						<li>a <strong>numbered</strong></li>
+						<li>list example</li>
+					</ol>	
+					<h4>code:</h4>
+					<code> 
+						&lt;ol&gt;
+						&lt;li&gt;this is&lt;/li&gt;
+						&lt;li&gt;a &lt;strong&gt;numbered&lt;/strong&gt;&lt;/li&gt;
+						&lt;li&gt;list example&lt;/li&gt;
+						&lt;/ol&gt;	
+					</code>
+				</section>
+			</section>
+
+
+			<section class="block card-container">
+				<h2 id="elements">COMBINED ELEMENTS</h2>
+				<section class="card">
+					<h3>main navigation</h3>
+					<div class="nav-container">
+						<div class="main-nav"> 
+							<nav class="nav-item">
+								<a href="#"> models </a>
+							</nav>
+							<nav class="nav-item">
+								<a href="#"> parts </a>
+							</nav>
+							<nav class="nav-item">
+								<a href="#"> about </a>
+							</nav>
+						</div>
+					</div>
+					<h4>code:</h4>
+					<code>
+						&lt;div class="nav-container"&gt;
+						&lt;div class="main-nav"&gt; 
+						&lt;nav class="nav-item"&gt;
+						&lt;a href="#"&gt; models &lt;/a&gt;
+						&lt;/nav&gt;
+						&lt;nav class="nav-item"&gt;
+						&lt;a href="#"&gt; parts &lt;/a&gt;
+						&lt;/nav&gt;
+						&lt;nav class="nav-item"&gt;
+						&lt;a href="#"&gt; about &lt;/a&gt;
+						&lt;/nav&gt;
+						&lt;/div&gt;
+						&lt;/div&gt;
+					</code>
+				</section>
+				<section class="card">
+					<h3>product listing</h3>
+					<div class="product-list plain">
+						<img src="images/diagram.jpg" alt="navem logo" class="thumbnail">
+						<div class="product-description">
+							<h3 class="display-inline">Crusader Line</h3>
+							<p class="display-inline itallic">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id neque ut neque condimentum gravida. Donec non hendrerit odio. Nulla facilisi. Proin hendrerit ex nisl, euismod pretium tortor facilisis ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat nisi nec mauris dapibus, id semper dui finibus. 
+							</p>
+							<div class="button reset fixed-sizing">View</div>
+						</div>
+					</div>
+					<h4>
+						
+					</h4>
+					<code> this is a sample of code</code>
+				</section>
+				<section class="card">
+					<h3>grids</h3>
+					<section class="card plain">
+						<p>full width</p>
+					</section>
+
+					<div class="horizontal-grid">	
+						<section class="card plain"><p>half width</p></section>	
+						<section class="card plain">half width</section>
+					</div>
+					<div class="horizontal-grid">	
+						<section class="card plain quarter">1/4</section>	
+						<section class="card plain quarter">1/4</section>
+						<section class="card plain half"> half width</section>	
+					</div>	
+					<div class="horizontal-grid">	
+						<section class="card plain">1/4</section>	
+						<section class="card plain">1/4</section>
+						<section class="card plain">1/4</section>	
+						<section class="card plain">1/4</section>
+					</div>	
+					<div class="horizontal-grid">	
+						<section class="card plain quarter">1/4</section>	
+						<section class="card plain third">3/4</section>
+					</div>	
+					<h4>code:</h4>
+					<code> &lt;section class="card plain third"&gt;3/4&lt;/section&gt;&lt;/code&gt;
+					</section>
+					<section class="card">
+						<h3>colour swatches</h3>
+						<section class="card plain">
+							<div class="swatch standard-highlight">#327bda</div>
+							<h4 class="display-inline">standard highlight</h4>
+							<p class="display-inline">The standard blue colour is used consistently across the website for both emphasis and as a general signal of interactivity.</p>
+						</section>
+						<section class="card plain">
+							<div class="swatch confirmation">#32ca9e</div>
+							<h4 class="display-inline">confirmation</h4>
+							<p class="display-inline">The green confirmation colour is used on all interactive elements that pertain to purchasing items.</p>
+						</section>
+						<section class="card plain">
+							<div class="swatch extreme-highlight">#DF8C6B</div>
+							<h4 class="display-inline">extreme highlight</h4>
+							<p class="display-inline">For extreme highlights this contrasting peach tone should be used. It shouldb e used cautiously and sparingly.</p>
+						</section>
+						<section class="card dark">
+							<div class="swatch plain">#ffffff</div>
+							<h4 class="display-inline">plain</h4>
+							<p class="display-inline">Non-essential elements that will benefit from a lighter shade will use the plain white shade.</p>
+						</section>
+						<section class="card plain">
+							<div class="swatch dark">#495874</div>
+							<h4 class="display-inline">dark</h4>
+							<p class="display-inline">Non-essential elements that will benefit from a darker shade will use the dark blue shade.</p>
+						</section>
+						<h4>code:</h4>
+						<code> &lt;div class="swatch dark"&gt;#495874&lt;/div&gt;&lt;/code&gt;
+						</section>
+					</section>
+				</div>
+			</div>
+			
+		</body>
+
+		</html>
+

@@ -1,0 +1,65 @@
+*, *::after, *::before{ /* star is select all ||| pseudo elements rednered after page?*/
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card{
+	flex-grow: 1;
+}
+
+.product-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding:1.75rem 1rem;
+}
+
+.half{
+	flex-grow: 2;
+}
+
+.quarter{
+	flex-grow: 0.5;
+}
+
+.third{
+	flex-grow: 3;
+}
+
+.block{
+	flex-grow: 1;
+	flex-basis: 6em;
+}
+
+.main-content{
+	flex-grow: 5;
+
+	flex-basis: 8em;
+	justify-content: flex-end;
+	flex-direction: column;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.container{
+	margin-right: 10em;
+	margin-left: 10em;
+	
+}
+
+.card-container{
+	margin-left: 5em;
+	margin-bottom: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
+
+.horizontal-grid{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
