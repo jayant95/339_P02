@@ -163,8 +163,3 @@ a:hover{
 	transition: 0.2s;
 	color: #88afe2;
 }
-
-a:active{
-	transition: 0.2s;
-	background-color: #327bda;
-}
