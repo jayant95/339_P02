@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Brandon-bold";
+  font-weight: 600;
+  font-style: normal;
+  src:
+  url("../fonts/Brandon_blk.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Brandon-reg";
+  font-weight: normal;
+  font-style: normal;
+  src:
+  url("../fonts/Brandon_reg.otf") format("truetype");
+}
