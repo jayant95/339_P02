@@ -5,12 +5,15 @@ body {
 }
 
 .main-nav {
-  margin-top: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  padding-top: 0.5rem;
   position: fixed;
+  top: 0;
   display: flex;
   border-bottom: 1px solid black;
   width: 100%;
   height: 70px;
+  z-index: 1;
 }
 
 .site-logo {
@@ -88,4 +91,68 @@ body {
 .dropdown-content a:hover {
   background-color: #327bda;
   color: white;
+}
+
+.product-listing-all {
+  position: relative;
+  margin-top: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-listing {
+  position: relative;
+  display: inline-block;
+  flex-basis: 20rem;
+  margin: 1rem;
+}
+
+.product-header {
+  color: white;
+  background-color: rgba(50, 123, 218, 0.85);
+  font-size: 1rem;
+  font-family: "Brandon-reg";
+  padding: 1rem;
+}
+
+.product-header h3 {
+  display: inline-block;
+  margin: 0;
+}
+
+.product-header p {
+  display: inline-block;
+  margin-top: 0.3rem;
+  margin-bottom: 0rem;
+  float: right;
+}
+
+.product-header-layer {
+  position: absolute;
+  visibility: hidden;
+  bottom: 0;
+  width: 100%;
+}
+
+.product-listing:hover .product-header {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.product-img {
+  max-width: 100%;
+}
+
+/*Learned how to implement from https://stackoverflow.com/questions/17481660/darken-background-image-on-hover*/
+.product-listing:hover .product-img {
+  -webkit-filter: brightness(95%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  cursor: pointer;
 }
