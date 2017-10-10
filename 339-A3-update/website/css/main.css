@@ -1,0 +1,91 @@
+body {
+  color: #495874;
+  margin: 0;
+  height: 1000px;
+}
+
+.main-nav {
+  margin-top: 0.5rem;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 70px;
+}
+
+.site-logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-logo img {
+  width: 30px;
+  height: 50px;
+}
+
+.logo-name {
+  color: #495874;
+  font-size: 2rem;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+  height: auto;
+}
+
+.nav-options {
+  margin-left: auto;
+  margin-top: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-item {
+  color: #495874;
+  font-size: 1.4rem;
+	font-family: "Brandon-reg";
+	padding: 0.5rem 1.5rem;
+}
+
+.nav-item:hover {
+  transition: 0.2s;
+  color: #327bda;
+  border-bottom: 1px solid #327bda;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding-top: 1rem;
+}
+
+.dropdown-content a {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+  background-color: rgb(240, 240, 240);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #327bda;
+  color: white;
+}
