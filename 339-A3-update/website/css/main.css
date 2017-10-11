@@ -1,7 +1,6 @@
 body {
   color: #495874;
   margin: 0;
-  height: 1000px;
   font-family: "Brandon-reg";
 }
 
@@ -216,18 +215,68 @@ body {
   content: "\00d7";
 }
 
-@media (max-width: 47.5em) {
-  .cart-product-image, .cart-header-space {
-    display: none;
-  }
+/*----checkout.html-----------------------------------*/
+
+.checkout-form {
+  width: 25rem;
+  /*margin-top: 10rem;*/
+  margin: 8rem auto 0 auto;
+  border: 1px solid #327bda;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #327bda;
 }
 
-@media (max-width: 31em) {
-  .cart-product-details {
-    font-size: 0.7rem;
-  }
+.checkout-form label, .checkout-form input {
+  display: block;
+}
 
-  .cart-product-price {
-    font-size: 0.7rem;
-  }
+.checkout-form input {
+  width: 93%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #327bda;
+}
+
+.checkout-button-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-next-buttons {
+  justify-content: space-between;
+}
+
+.checkout-submit {
+  margin-top: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: #327bda;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid #327bda;
+}
+
+.checkout-submit:hover {
+  background-color: white;
+  color: #327bda;
+  border: 1px solid #327bda;
+}
+
+.card-options {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.5rem;
+  border-color: #327bda;
+}
+
+.previous-step {
+  justify-content: flex-start;
+}
+
+.review-form h3 {
+  margin-bottom: 0.5rem;
+}
+
+.review-form p {
+  margin-top: 0.5rem;
 }

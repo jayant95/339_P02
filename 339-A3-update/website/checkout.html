@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
     <link href="css/main.css" rel="stylesheet">
   	<link href="css/fonts.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
 
@@ -49,11 +50,78 @@
             <a href="#">model D</a>
           </div>
         </div>
-
-        <a href="#" class="nav-item">parts</a>
-        <a href="#" class="nav-item">about</a>
+        <div>
+          <a href="#" class="nav-item">parts</a>
+        </div>
+        <div>
+          <a href="#" class="nav-item">about</a>
+        </div>
       </nav>
     </nav>
+
+    <form class="checkout-form">
+      <div id="checkout-billing" class="billing-form">
+        <h2>Billing Information</h2>
+				<label>First Name</label>
+				<input type="text" placeholder="John">
+				<label>Last Name</label>
+				<input type="text" placeholder="Doe">
+				<label>Address</label>
+				<input type="text" placeholder="123 Alpha Street">
+        <label>Postal Code</label>
+        <input type="text" placeholder="xxx-xxx">
+        <label>City</label>
+        <input type="text" placeholder="Surrey">
+        <label>Country</label>
+        <input type="text" placeholder="Canada">
+        <div class="checkout-button-div">
+          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit">Next: Payment Info</a>
+        </div>
+      </div>
+    </form>
+
+    <form class="checkout-form">
+      <div id="checkout-payment" class="payment-form">
+        <h2>Payment Information</h2>
+        <label>Card Type</label>
+        <!-- https://www.w3schools.com/tags/tag_select.asp -->
+        <select class="card-options">
+          <option value="visa">Visa</option>
+          <option value="mastercard">MasterCard</option>
+          <option value="amex">American Express</option>
+        </select>
+        <label>Cardholder's Name</label>
+        <input type="text" placeholder="John Doe">
+        <label>Card Number</label>
+        <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
+        <label>Expiry Date</label>
+        <input type="text" placeholder="MM/YY">
+        <div class="checkout-button-div back-next-buttons">
+          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit previous-step">Billing Info</a>
+          <a href="#checkout-review" onclick="checkoutFuncton()" class="checkout-submit next-step">Review Order</a>
+        </div>
+      </div>
+    </form>
+
+    <form class="checkout-form">
+      <div id="checkout-review" class="review-form">
+        <h2>Review Order</h2>
+        <h3>Name</h3>
+        <p>John Doe</p>
+        <h3>Address</h3>
+        <p>123 Alpha Street</p>
+        <h3>City</h3>
+        <p>Surrey</p>
+        <h3>Country</h3>
+        <p>Canada</p>
+        <div class="checkout-button-div back-next-buttons">
+          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit previous-step">Payment Info</a>
+          <a href="#" onclick="checkoutFuncton()" class="checkout-submit next-step">Submit Order</a>
+        </div>
+      </div>
+    </form>
+
+
   </body>
 
 
