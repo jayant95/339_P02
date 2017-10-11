@@ -1,0 +1,19 @@
+@media(min-width: 32.3125em){
+	.nav-options{
+		position: initial;
+		top:initial;
+	}
+}
+
+@media(min-width: 40em){
+	.nav-item{
+		padding: 0.5rem 1.5rem;
+	}
+}
+
+@media(min-width: 44.5em){
+	.nav-item{
+		font-size: 1.4rem;
+	}
+}
+
