@@ -280,3 +280,46 @@ body {
 .review-form p {
   margin-top: 0.5rem;
 }
+
+
+/*----FOOTER COMPONENT-----------------------------------*/
+
+.page-footer {
+  color: white;
+  width: 100%;
+  background-color: #495874;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footer-left-panel, .footer-right-panel {
+  padding-top: 1rem;
+}
+
+.footer-left-panel {
+  padding-left: 1rem;
+}
+
+.footer-right-panel {
+  padding-right: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer-item {
+  padding: 0 0.5rem;
+}
+
+.footer-left-panel p {
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.footer-right-panel p {
+  display: inline;
+}
+
+.footer-right-panel a {
+  text-decoration: none;
+  color: white;
+}

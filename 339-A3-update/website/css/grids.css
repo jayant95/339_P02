@@ -52,3 +52,17 @@
     font-size: 0.7rem;
   }
 }
+
+@media (max-width: 28.125em) {
+	.page-footer {
+		flex-wrap: wrap;
+	}
+
+	.footer-left-panel p {
+		margin-bottom: 0;
+	}
+
+	.footer-right-panel {
+	  padding-left: 0.5rem;
+	}
+}
