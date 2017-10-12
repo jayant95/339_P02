@@ -51,6 +51,10 @@
   .cart-product-price {
     font-size: 0.7rem;
   }
+
+	.checkout-form {
+		width: 85%;
+	}
 }
 
 @media (max-width: 28.125em) {
