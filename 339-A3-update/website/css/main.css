@@ -385,6 +385,7 @@ form{
 
 #about{
    background-image: url('../img/about-image.jpg');
+   -webkit-filter: brightness(95%);
  }
 
 .table-left-padded{
