@@ -2,59 +2,87 @@
 
 <html lang="en">
 
-  <head>
-    <title>Navem - Confirmation</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
-    <link href="css/main.css" rel="stylesheet">
-  	<link href="css/fonts.css" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  </head>
+<head>
+  <title>Navem - Confirmation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
 
-  <body>
-    <nav class="main-nav">
-      <div class="site-logo">
-        <a href="index.html" class="main-logo">
-          <img src="img/logo-339.png" alt="navem logo" class="logo">
-        </a>
-        <a href="index.html" class="logo-name">NAVEM</a>
+<body>
+  <nav class="main-nav">
+    <div class="site-logo">
+      <a href="index.html" class="main-logo">
+        <img src="img/logo-339.png" alt="navem logo" class="logo">
+      </a>
+      <a href="index.html" class="logo-name">NAVEM</a>
+    </div>
+    <nav class="nav-options">
+      <div class="dropdown">
+        <a href="#" class="nav-item">boats</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
+        </div>
       </div>
-      <nav class="nav-options">
-        <div class="dropdown">
-          <a href="#" class="nav-item">boats</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
-        </div>
 
-        <div class="dropdown">
-          <a href="#" class="nav-item">sails/spars</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
+      <div class="dropdown">
+        <a href="#" class="nav-item">sails/spars</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
         </div>
+      </div>
 
-        <div class="dropdown">
-          <a href="#" class="nav-item">foils</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
+      <div class="dropdown">
+        <a href="#" class="nav-item">foils</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
         </div>
-
+      </div>
+      <div>
         <a href="#" class="nav-item">parts</a>
+      </div>
+      <div>
         <a href="#" class="nav-item">about</a>
-      </nav>
+      </div>
     </nav>
-  </body>
+  </nav>
 
+  <div id="main-content" class="grid-center">
+    <div class="card grid grid-top grid-gutters grid-column grid-center">
+      <h2>THANK YOU FOR YOUR ORDER</h2>
+      <div>
+        <h4>Your order number is: 999999999</h4>
+        <h4>Your tracking number is: 999999999</h4>
+        <p>You will receive an email confirmation shortly from email@navem.com</p>
+        <div class="button reset">Continue Browsing</div>
+      </div>
+    </div>
+  </div>
 
+  <div class="page-footer">
+    <div class="footer-left-panel">
+      <p>© 2017 NAVEM</p>
+    </div>
+
+    <div class="footer-right-panel">
+      <p class="footer-item">(604) 732 6457</p>
+      <a class="footer-item" href="#">Facebook</a>
+      <a class="footer-item" href="#">Twitter</a>
+      <a class="footer-item" href="#">Youtube</a>
+    </div>
+  </div>
+
+</body>
 </html>
