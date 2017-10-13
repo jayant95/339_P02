@@ -2,68 +2,182 @@
 
 <html lang="en">
 
-  <head>
-    <!-- Change the name once we know what product this is. -->
-    <title>Navem - Product Listing 1</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
-    <link href="css/main.css" rel="stylesheet">
-  	<link href="css/fonts.css" rel="stylesheet">
-    <link href="css/grids.css" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  </head>
+<head>
+  <!-- Change the name once we know what product this is. -->
+  <title>Navem - Product Listing 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
 
-  <body>
-    <nav class="main-nav">
-      <div class="site-logo">
-        <a href="index.html" class="main-logo">
-          <img src="img/logo-339.png" alt="navem logo" class="logo">
-        </a>
-        <a href="index.html" class="logo-name">NAVEM</a>
+<body>
+  <nav class="main-nav">
+    <div class="site-logo">
+      <a href="index.html" class="main-logo">
+        <img src="img/logo-339.png" alt="navem logo" class="logo">
+      </a>
+      <a href="index.html" class="logo-name">NAVEM</a>
+    </div>
+    <nav class="nav-options">
+      <div class="dropdown">
+        <a href="#" class="nav-item">boats</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
+        </div>
       </div>
-      <nav class="nav-options">
-        <div class="dropdown">
-          <a href="#" class="nav-item">boats</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
-        </div>
 
-        <div class="dropdown">
-          <a href="#" class="nav-item">sails/spars</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
+      <div class="dropdown">
+        <a href="#" class="nav-item">sails/spars</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
         </div>
+      </div>
 
-        <div class="dropdown">
-          <a href="#" class="nav-item">foils</a>
-          <div class="dropdown-content">
-            <a href="#">model A</a>
-            <a href="#">model B</a>
-            <a href="#">model C</a>
-            <a href="#">model D</a>
-          </div>
+      <div class="dropdown">
+        <a href="#" class="nav-item">foils</a>
+        <div class="dropdown-content">
+          <a href="#">model A</a>
+          <a href="#">model B</a>
+          <a href="#">model C</a>
+          <a href="#">model D</a>
         </div>
-        <div>
+      </div>
+      <div>
         <a href="#" class="nav-item">parts</a>
-        </div>
-        <div>
+      </div>
+      <div>
         <a href="#" class="nav-item">about</a>
-        </div>
-      </nav>
+      </div>
     </nav>
-  </body>
+  </nav>
 
   <div id="main-content">
-    
-  </div>
+    <div class="card grid grid-top grid-gutters">
+      <section id="product-overview" class="grid-1of3 grid-cell align-end">
+        <img class="responsive-img-width" src="img/crusader-boat.jpg" alt="boat diagram">
+      </section>
+      <section class="grid-2of3 grid-cell">
+        <h2>BORASCO - 50</h2>
+        <p>description of the ship ------- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer hendrerit lectus interdum augue fringilla, a iaculis magna porta. Aliquam erat volutpat. Vivamus elementum, ex et ultrices feugiat, dui magna congue nulla, nec posuere ante ex vitae lorem. Nullam ac semper magna. </p>
+        <div class="grid full">
+          <div class="grid-1of5 grid-cell">
+          </div>
+          <div class="grid-4of5 grid-cell">
+            <table>
+              <tr>
+                <td>price: </td>
+                <td class="table-left-padded">  $999 999</td>
+              </tr>
+              <tr>
+                <td>shipping: </td>
+                <td class="table-left-padded">  calculated at checkout</td>
+              </tr>
+              <tr>
+                <td>upgrade: </td>
+                <td class="table-left-padded">  <form>
+                  <input type="radio" name="option" value="race" checked> race model<br>
+                  <input type="radio" name="option" value="distance"> cruising model<br>
+                </form></td>
+              </tr>
+              <tr>
+                <td>quantity: </td>
+                <td class="table-left-padded">  <form><input type="text" name="quantity"><br></form></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="table-left-padded">  <div class="button reset fixed-sizing">Buy</div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
 
+    <div class="card grid grid-top grid-gutters grid-column">
+      <h3>SPECIFICS</h3>
+      <div class="grid full">
+        <section id="product-overview" class="grid-1of3 grid-cell">
+          <p>Every Borosco is identical to adhere to one-design class rules. Borosco race features upgraded sail controls and larger foils. Borosco cruising features an upgraded interior and auto-tacking jibs.</p>
+          <table>
+            <tr>
+              <td>Length</td>
+              <td>99 ft</td>
+            </tr>
+            <tr>
+              <td>Beam</td>
+              <td>99 ft</td>
+            </tr>
+            <tr>
+              <td>Draft</td>
+              <td>99 ft</td>
+            </tr>
+            <tr>
+              <td>Sail Area</td>
+              <td>99 ft square</td>
+            </tr>
+            <tr>
+              <td>Hull Weight</td>
+              <td>99 ft</td>
+            </tr>
+            <tr>
+              <td>Capacity</td>
+              <td>99 ft</td>
+            </tr>
+          </table>
+        </section>
+        <section class="grid-2of3 grid-cell">
+          <img class="responsive-img-width" src="img/context-boat.jpg" alt="boat diagram">
+        </section>
+      </div>
+    </div>
 
-</html>
+    <div class="card grid grid-top grid-gutters grid-column">
+      <h3>COMMENTS</h3>
+      <div class="grid full">
+        
+        <section class="grid-1of3 grid-cell">
+          <div class="card blank full">
+            <h3>Leave a comment : </h3>
+            <form>
+              <label>First Name:</label>
+              <input class="full" type="text" name="firstname">
+            </form>
+            <form>
+              <label>Last Name:</label>
+              <input class="full" type="text" name="lastname">
+            </form>
+            <form>
+              <label>Comment:</label>
+              <input class="full" id="comment-field" type="text" name="comment">
+            </form>
+          </div>
+        </section>
+
+        <section id="product-overview" class="grid-2of3 grid-cell">
+          <div class="card blank full">
+            <h4>Sarah O'connor</h4>
+            <p class="submitted-comment">This is a comment. Behold this lady's words.</p>
+          </div>
+          <div class="card blank full">
+            <h4>Sarah O'connor</h4>
+            <p class="submitted-comment">This is a comment. Behold this lady's words.</p>
+          </div>
+          <div class="card blank full">
+            <h4>Sarah O'connor</h4>
+            <p class="submitted-comment">This is a comment. Behold this lady's words.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </body>
+  </html>
