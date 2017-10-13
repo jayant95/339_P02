@@ -8,6 +8,10 @@ body {
   font-family: "Brandon-reg";
 }
 
+a{
+  text-decoration: none;
+}
+
 p{
   margin: 0;
   margin-bottom: 1rem;
@@ -332,8 +336,7 @@ form{
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  position: fixed;
-  top: 89%;
+
 }
 
 .footer-left-panel, .footer-right-panel {
@@ -379,6 +382,10 @@ form{
 #comment-field{
   height: 8rem;
 }
+
+#about{
+   background-image: url('../img/about-image.jpg');
+ }
 
 .table-left-padded{
   padding-left: 2rem;
