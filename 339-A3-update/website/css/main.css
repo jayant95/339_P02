@@ -332,6 +332,8 @@ form{
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  position: fixed;
+  top: 89%;
 }
 
 .footer-left-panel, .footer-right-panel {
@@ -430,6 +432,12 @@ form{
 
 .grid-column{
   flex-direction: column;
+}
+
+.grid-center{
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 .responsive-img-width{
