@@ -59,69 +59,47 @@
     </nav>
   </nav>
 
-    <form class="checkout-form">
-      <div id="checkout-billing" class="billing-form">
-        <h2>Billing Information</h2>
-				<label>First Name</label>
-				<input type="text" placeholder="John">
-				<label>Last Name</label>
-				<input type="text" placeholder="Doe">
-				<label>Address</label>
-				<input type="text" placeholder="123 Alpha Street">
-        <label>Postal Code</label>
-        <input type="text" placeholder="xxx-xxx">
-        <label>City</label>
-        <input type="text" placeholder="Surrey">
-        <label>Country</label>
-        <input type="text" placeholder="Canada">
-        <div class="checkout-button-div">
-          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit">Next: Payment Info</a>
-        </div>
+    <div id="main-content">
+    <div class="card grid grid-top grid-gutters">
+      <div class="checkout-steps">
+        <p class="step-active">Step 1</p>
+        <p class="steps-step2">Step 2</p>
+        <p>Step 3</p>
       </div>
-    </form>
-
-    <form class="checkout-form">
-      <div id="checkout-payment" class="payment-form">
-        <h2>Payment Information</h2>
-        <label>Card Type</label>
-        <!-- https://www.w3schools.com/tags/tag_select.asp -->
-        <select class="card-options">
-          <option value="visa">Visa</option>
-          <option value="mastercard">MasterCard</option>
-          <option value="amex">American Express</option>
-        </select>
-        <label>Cardholder's Name</label>
-        <input type="text" placeholder="John Doe">
-        <label>Card Number</label>
-        <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
-        <label>Expiry Date</label>
-        <input type="text" placeholder="MM/YY">
-        <div class="checkout-button-div back-next-buttons">
-          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit previous-step">Billing Info</a>
-          <a href="#checkout-review" onclick="checkoutFuncton()" class="checkout-submit next-step">Review Order</a>
+      <form class="checkout-form">
+        <div id="checkout-billing" class="billing-form">
+          <h2>Billing Information</h2>
+          <div class="checkout-grouping checkout-grouping-left">
+            <label>First Name</label>
+            <input type="text" placeholder="John">
+          </div>
+          <div class="checkout-grouping checkout-grouping-right">
+            <label>Last Name</label>
+            <input type="text" placeholder="Doe">
+          </div>
+          <div class="checkout-grouping checkout-grouping-left">
+            <label>Address</label>
+            <input type="text" placeholder="123 Alpha Street">
+          </div>
+          <div class="checkout-grouping checkout-grouping-right">
+            <label>Postal Code</label>
+            <input type="text" placeholder="xxx-xxx">
+          </div>
+          <div class="checkout-grouping checkout-grouping-left">
+            <label>City</label>
+            <input type="text" placeholder="Surrey">
+          </div>
+          <div class="checkout-grouping checkout-grouping-right">
+            <label>Country</label>
+            <input type="text" placeholder="Canada">
+          </div>
+          <div class="checkout-button-div">
+            <a href="checkout_step2.html" class="checkout-submit">Next: Payment Info</a>
+          </div>
         </div>
-      </div>
-    </form>
-
-    <form class="checkout-form">
-      <div id="checkout-review" class="review-form">
-        <h2>Review Order</h2>
-        <h3>Name</h3>
-        <p>John Doe</p>
-        <h3>Address</h3>
-        <p>123 Alpha Street</p>
-        <h3>City</h3>
-        <p>Surrey</p>
-        <h3>Country</h3>
-        <p>Canada</p>
-        <div class="checkout-button-div back-next-buttons">
-          <a href="#checkout-payment" onclick="checkoutFuncton()" class="checkout-submit previous-step">Payment Info</a>
-          <a href="confirmation.html" onclick="checkoutFuncton()" class="checkout-submit next-step">Submit Order</a>
-        </div>
-      </div>
-    </form>
-
-
+      </form>
+    </div>
+  </div>
     <div class="page-footer">
       <div class="footer-left-panel">
         <p>© 2017 NAVEM</p>

@@ -263,13 +263,40 @@ form{
 /*----checkout.html-----------------------------------*/
 
 .checkout-form {
-  width: 25rem;
-  /*margin-top: 10rem;*/
-  margin: 8rem auto 0 auto;
-  border: 1px solid #327bda;
+  width: 100%;
+  margin: 0 auto;
   border-radius: 5px;
   padding: 1rem;
-  color: #327bda;
+  /*color: #327bda;*/
+  color: #495874;
+  background-color: white;
+}
+
+.checkout-steps {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #495874;
+  border-radius: 5px;
+  display: flex;
+}
+
+.checkout-steps p {
+  display: inline;
+  margin: 0;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+.steps-step2 {
+  border-left: 1px solid #495874;
+  border-right: 1px solid #495874;
+}
+
+.step-active {
+  background-color: #327bda;
+  color: white;
 }
 
 .checkout-form label, .checkout-form input {
@@ -277,15 +304,20 @@ form{
 }
 
 .checkout-form input {
-  width: 93%;
-  margin-bottom: 1rem;
-  padding: 0.5rem 0.8rem;
-  border: 1px solid #327bda;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 0.8rem;
+  border: 1px solid #495874;
+  font-size: 0.9rem;
+}
+
+.checkout-form h2 {
+  margin-top: 0;
 }
 
 .checkout-button-div {
   display: flex;
-  justify-content: flex-end;
 }
 
 .back-next-buttons {
@@ -300,18 +332,32 @@ form{
   color: white;
   transition: 0.5s;
   border: 1px solid #327bda;
+  flex-grow: 1;
+  text-align: center;
 }
 
-.checkout-submit:hover {
+.checkout-submit:hover, .checkout-submit:focus, .checkout-submit:active {
   background-color: white;
   color: #327bda;
   border: 1px solid #327bda;
 }
 
+.back-next-buttons .previous-step {
+  margin-right: 0.5rem;
+}
+
+.back-next-buttons .next-step {
+  margin-left: 0.5rem;
+}
+
 .card-options {
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.2rem;
   padding: 0.5rem 0.5rem;
-  border-color: #327bda;
+  border-color: #495874;
+  font-size: 0.9rem;
+  width: 100%;
+  height: 3rem;
 }
 
 .previous-step {
@@ -395,7 +441,7 @@ form{
 .card{
   background-color: #f1f1f1;
   padding: 0.5rem 1.5rem;
-  width: 70%;
+  width: 95%;
   margin:auto;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
@@ -413,6 +459,7 @@ form{
 
 .grid {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .align-end{
