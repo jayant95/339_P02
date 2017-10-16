@@ -86,30 +86,35 @@ form{
 }
 
 .nav-options {
-  margin-left: auto;
-  margin-top: 1rem;
-  margin-right: 5%;
   position: fixed;
   display: flex;
-  top: 91%;
+  width: 100%;
+  text-align: center;
+  background-color: #327bda;
+  color: white;
+  height: 4rem;
+  bottom: 0%;
 }
 
 .nav-item {
-  color: #495874;
+  color: white;
   font-size: 1rem;
   font-family: "Brandon-reg";
   padding: 0.5rem 0.5rem;
-  width: 15%;
+  font-size: 1.1rem;
 }
 
-.nav-item:hover {
+/*.nav-item:hover {
   transition: 0.2s;
-  color: #327bda;
+  color: white;
   border-bottom: 1px solid #327bda;
-}
+}*/
 
 .dropdown {
   display: inline-block;
+  flex-grow: 1;
+  padding-top: 1.2rem;
+  border-right: 1px solid white;
 }
 
 .dropdown-content {
@@ -129,17 +134,34 @@ form{
   background-color: rgb(240, 240, 240);
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.dropdown-mobile {
+  top: 0%;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  height: 91%;
+  z-index: 1;
 }
 
-.dropdown-content:hover {
-  display: block;
+.dropdown-mobile .mobile-nav-items {
+  text-align: center;
+  margin-top: 3rem;
+  /*line-height: 130px;*/
+  flex: 1;
+  font-size: 1.5rem;
+  border-bottom: 1px solid black;
 }
 
-.dropdown-content a:hover {
-  background-color: #327bda;
+.mobile-nav-close {
+  height: 4rem;
+  text-align: center;
+  background-color: #DF8C6B;
   color: white;
+  font-size: 1rem;
+  padding-top: 1.3rem;
+  cursor: pointer;
 }
 
 .product-listing-all {

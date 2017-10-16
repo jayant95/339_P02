@@ -6,10 +6,11 @@
     <title>Navem - Review Order</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
-      <link href="css/main.css" rel="stylesheet">
-  <link href="css/fonts.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script type="text/javascript" src="js/navigation.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     </div>
     <nav class="nav-options">
       <div class="dropdown">
-        <a href="#" class="nav-item">boats</a>
+        <a href="#" class="nav-item" onclick="navigationOpen('boats')">boats</a>
         <div class="dropdown-content">
           <a href="boats.html">borasco</a>
           <a href="boats.html">etesian</a>
@@ -32,7 +33,7 @@
       </div>
 
       <div class="dropdown">
-        <a href="#" class="nav-item">sails/spars</a>
+        <a href="#" class="nav-item" onclick="navigationOpen('sails')">sails</a>
         <div class="dropdown-content">
           <a href="boats.html">borasco</a>
           <a href="boats.html">etesian</a>
@@ -42,20 +43,44 @@
       </div>
 
       <div class="dropdown">
-        <a href="#" class="nav-item">foils</a>
+        <a href="#" class="nav-item" onclick="navigationOpen('foils')">foils</a>
         <div class="dropdown-content">
           <a href="boats.html">borasco</a>
           <a href="foils.html">etesian</a>
           <a href="#">chubasco</a>
-          <a href="#">Levanter</a>
+          <a href="#">levanter</a>
         </div>
       </div>
-      <div>
+      <div class="dropdown">
         <a href="boats.html" class="nav-item">parts</a>
       </div>
-      <div>
+      <div class="dropdown">
         <a href="index.html#about" class="nav-item">about</a>
       </div>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-boats">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('boats')">close</a>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-sails">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('sails')">close</a>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-foils">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('foils')">close</a>
     </nav>
   </nav>
 
