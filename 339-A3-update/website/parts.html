@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Navem - Sails Listings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <script type="text/javascript" src="js/navigation.js"></script>
+</head>
+
+<body>
+  <nav class="main-nav">
+    <div class="site-logo">
+      <a href="index.html" class="main-logo">
+        <img src="img/logo-339.png" alt="navem logo" class="logo">
+      </a>
+      <a href="index.html" class="logo-name">NAVEM</a>
+    </div>
+    <nav class="nav-options">
+      <div class="dropdown">
+        <a href="#" class="nav-item" onclick="navigationOpen('boats')">boats</a>
+        <div class="dropdown-content">
+          <a href="boats.html">borasco</a>
+          <a href="boats.html">etesian</a>
+          <a href="#">chubasco</a>
+          <a href="#">levanter</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#" class="nav-item" onclick="navigationOpen('sails')">sails</a>
+        <div class="dropdown-content">
+          <a href="sails.html">borasco</a>
+          <a href="sails.html">etesian</a>
+          <a href="#">chubasco</a>
+          <a href="#">levanter</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="#" class="nav-item" onclick="navigationOpen('foils')">foils</a>
+        <div class="dropdown-content">
+          <a href="boats.html">borasco</a>
+          <a href="foils.html">etesian</a>
+          <a href="#">chubasco</a>
+          <a href="#">levanter</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="parts.html" class="nav-item">parts</a>
+      </div>
+      <div class="dropdown">
+        <a href="index.html#about" class="nav-item">about</a>
+      </div>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-boats">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('boats')">close</a>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-sails">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('sails')">close</a>
+    </nav>
+
+    <nav class="dropdown-mobile" id="nav-list-mobile-foils">
+      <a class="mobile-nav-items" href="boats.html">borasco</a>
+      <a class="mobile-nav-items" href="boats.html">etesian</a>
+      <a class="mobile-nav-items" href="#">chubasco</a>
+      <a class="mobile-nav-items" href="#">levanter</a>
+      <a class="mobile-nav-close" onclick="navigationClose('foils')">close</a>
+    </nav>
+  </nav>
+
+  <div class="product-listing-all">
+    <div class="product-listing">
+      <a href="productListing1.html">
+        <img class="product-img" src="img/sail-1.jpg" alt="borosoco 6m sailing">
+        <div class="product-header-layer">
+          <div class="product-header">
+            <h3>BOROSCO 6m</h3>
+            <p>$499.99</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="product-listing">
+      <img class="product-img" src="img/sail-2.jpg" alt="Crusader boat diagram">
+      <div class="product-header-layer">
+        <div class="product-header">
+          <h3>BOROSCO 7m</h3>
+          <p>$599.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-listing">
+      <img class="product-img" src="img/sail-3.jpg" alt="Crusader boat diagram">
+      <div class="product-header-layer">
+        <div class="product-header">
+          <h3>Borosco 9m</h3>
+          <p>$899.99</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-listing">
+      <img class="product-img" src="img/sail-4.jpg" alt="Crusader boat diagram">
+      <div class="product-header-layer">
+        <div class="product-header">
+          <h3>Borosco 12m</h3>
+          <p>$1299.99</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="page-footer">
+      <div class="footer-left-panel">
+        <p>© 2017 NAVEM</p>
+      </div>
+
+      <div class="footer-right-panel">
+        <p class="footer-item">(604) 732 6457</p>
+        <a class="footer-item" href="#">Facebook</a>
+        <a class="footer-item" href="#">Twitter</a>
+        <a class="footer-item" href="#">Youtube</a>
+      </div>
+    </div>
+
+  </body>
+
+
+  </html>

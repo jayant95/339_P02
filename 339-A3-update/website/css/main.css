@@ -484,10 +484,17 @@ form{
    height: 30rem;
  }
 
+ #p-form{
+  width: 100%;
+ }
+
 .table-left-padded{
   padding-left: 2rem;
 }
 
+.margin-bottom{
+  margin-bottom: 1.5rem;
+}
 .card{
   background-color: #f1f1f1;
   padding: 0.5rem 1.5rem;
