@@ -27,6 +27,10 @@
 	  background-color: #327bda;
 	  color: white;
 	}
+
+	.page-footer {
+		margin-bottom: 0rem;
+	}
 }
 
 @media(min-width: 40em){
@@ -113,16 +117,6 @@
   }
 }
 
-@media (max-width: 28.125em) {
-	.page-footer {
-		flex-wrap: wrap;
-	}
+@media (min-width: 28.125em) {
 
-	.footer-left-panel p {
-		margin-bottom: 0;
-	}
-
-	.footer-right-panel {
-	  padding-left: 0.5rem;
-	}
 }
