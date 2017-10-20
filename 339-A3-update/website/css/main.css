@@ -190,11 +190,12 @@ form{
 }
 
 .product-header {
-  color: white;
-  background-color: rgba(50, 123, 218, 0.85);
+  color: rgba(50, 123, 218, 0.85);
+  background-color: rgba(230, 230, 230, 0.70);
   font-size: 1rem;
   font-family: "Brandon-reg";
   padding: 1rem;
+  transition: 1s;
 }
 
 .product-header h3 {
@@ -211,13 +212,13 @@ form{
 
 .product-header-layer {
   position: absolute;
-  visibility: hidden;
   bottom: 0;
   width: 100%;
 }
 
 .product-listing:hover .product-header {
-  visibility: visible;
+  color: white;
+  background-color: rgba(50, 123, 218, 0.85);
   cursor: pointer;
 }
 
@@ -239,9 +240,6 @@ form{
 /*----cart.html-----------------------------------*/
 
 .cart-overview {
-  /*margin-top: 10rem;
-  margin-left: 1rem;
-  margin-right: 1rem;*/
   border-collapse: collapse;
 }
 
