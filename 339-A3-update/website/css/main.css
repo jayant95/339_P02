@@ -464,6 +464,9 @@ form{
    -webkit-filter: brightness(95%);
    background-repeat: no-repeat;
    background-size: cover;
+   margin-top: -4rem;
+   margin-bottom: 2rem;
+   height: 30rem;
  }
 
 .table-left-padded{
