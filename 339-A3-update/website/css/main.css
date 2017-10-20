@@ -486,6 +486,10 @@ form{
    height: 30rem;
  }
 
+ #p-form{
+  width: 100%;
+ }
+
 .table-left-padded{
   padding-left: 2rem;
 }
