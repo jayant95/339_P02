@@ -9,5 +9,4 @@ function navigationOpen(navType) {
   if (screen.width < 517) {
     document.getElementById(id).style.display = 'flex';
   }
-
 }

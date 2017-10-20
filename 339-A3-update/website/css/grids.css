@@ -93,6 +93,10 @@
 	.dropdown-content {
 		padding-left: 1.5rem;
 	}
+
+	.about-info {
+		font-size: 1rem;
+	}
 }
 
 @media (min-width: 27.375em) {
