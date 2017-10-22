@@ -220,6 +220,7 @@ form.margin-bottom{
   font-size: 1rem;
   font-family: "Brandon-reg";
   padding: 1rem;
+  padding-top: 2.5rem;
   transition: 1s;
 }
 
@@ -513,7 +514,6 @@ form.margin-bottom{
   margin-top: 2rem;
   flex-wrap: wrap;
   padding-bottom: 1rem;
-  margin-bottom: 4rem;
   border-bottom: 1px solid white;
 }
 
