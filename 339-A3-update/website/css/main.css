@@ -73,6 +73,10 @@ form{
   display: inline-block;
 }
 
+form.margin-bottom{
+  width: 100%;
+}
+
 .block{
   display: block;
 }
@@ -471,6 +475,10 @@ form{
   margin-left: 0.5rem;
 }
 
+.small-card{
+
+}
+
 .card-options {
   margin-top: 0.5rem;
   margin-bottom: 1.2rem;
@@ -551,9 +559,14 @@ form{
 
 /*----product-listing.html-----------------------------------*/
 #main-content{
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+#product-overview{
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #comment-field{
@@ -561,7 +574,7 @@ form{
 }
 
 #about{
-   margin-top: -4rem;
+   margin-top: -2rem;
    margin-bottom: 2rem;
    height: auto;
  }
@@ -582,10 +595,6 @@ form{
    background-size: cover;
    height: 40vh;
    width: 100%;
-}
-
-.table-left-padded{
-  padding-left: 2rem;
 }
 
 .margin-bottom{
@@ -665,12 +674,12 @@ form{
 }
 
 .grid-1of5{
-  flex: 0 0 20%;
+  flex: 0 0 0%;
 
 }
 
 .grid-4of5{
-  flex: 0 0 80%;
+  flex: 0 0 100%;
 }
 
 .grid-1of4{
@@ -709,4 +718,14 @@ form{
 
 .fixed-sizing{
   width: 6em;
+}
+
+em{
+  color:#327bda;
+  font-style: normal;
+}
+
+td{
+  padding: 0.4rem;
+  vertical-align: top;
 }
