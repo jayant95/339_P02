@@ -18,7 +18,18 @@ body {
 }
 
 a{
+  color: #327bda;
   text-decoration: none;
+}
+
+a:hover{
+  transition: 0.2s;
+  color: #88afe2;
+}
+
+a:active{
+  transition: 0.2s;
+  background-color: #327bda;
 }
 
 p{
@@ -32,7 +43,7 @@ body{
 }
 
 h1, h2, h3 {
-  font-family: "Brandon-reg"
+  font-family: "Brandon-bold"
 }
 
 h3 {
@@ -90,7 +101,7 @@ form{
 }
 
 .main-logo img {
-  width: 30px;
+  width: auto;
   height: 50px;
 }
 
@@ -100,6 +111,7 @@ form{
   padding-left: 0.7rem;
   padding-top: 0.5rem;
   height: auto;
+  font-family: "Brandon-bold"
 }
 
 .nav-options {
@@ -549,18 +561,28 @@ form{
 }
 
 #about{
-   background-image: url('../img/about-image.jpg');
-   -webkit-filter: brightness(95%);
-   background-repeat: no-repeat;
-   background-size: cover;
    margin-top: -4rem;
    margin-bottom: 2rem;
-   height: 40rem;
+   height: auto;
  }
 
  #p-form{
   width: 100%;
  }
+
+#news{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#background-image{
+  background-image: url('../img/about-image.jpg');
+   -webkit-filter: brightness(95%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40vh;
+   width: 100%;
+}
 
 .table-left-padded{
   padding-left: 2rem;
@@ -571,16 +593,20 @@ form{
 }
 .card{
   background-color: #f1f1f1;
-  padding: 0.5rem 1.5rem;
   width: 95%;
   margin:auto;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
 }
 
 .about-info {
   background-color: rgba(255, 255, 255, 0.85);
   font-size: 0.8rem;
+  align-self: flex-start;
+  margin:0;
+  margin-right: 5%;
+  margin-left: auto;
 }
 
 .blank{
@@ -605,11 +631,6 @@ form{
 
 .grid-cell {
   flex: 1;
-  padding-left: 2rem;
-}
-
-.grid-cell:first-of-type{
-  padding-left: 0;
 }
 
 /* With gutters */
@@ -617,6 +638,9 @@ form{
   padding: 1rem 1rem 1rem 1rem;
 }
 
+.grid-padded{
+  padding: 0.5rem 1.5rem;
+}
 .grid-top {
   align-items: flex-start;
 }
@@ -659,12 +683,12 @@ form{
 }
 
 .grid-1of3{
-  flex: 0 0 33.3%;
+  flex: 0 0 100%;
 
 }
 
 .grid-2of3{
-  flex: 0 0 66.6%;
+  flex: 0 0 100%;
 }
 
 .grid-1of2{
