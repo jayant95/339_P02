@@ -10,6 +10,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/fonts.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 
@@ -27,32 +28,23 @@
         <div class="dropdown-content">
           <a href="boats.html">borasco</a>
           <a href="boats.html">etesian</a>
-          <a href="#">chubasco</a>
-          <a href="#">levanter</a>
+          <a href="boats.html">chubasco</a>
+          <a href="boats.html">levanter</a>
         </div>
       </div>
 
       <div class="dropdown">
         <a href="#" class="nav-item" onclick="navigationOpen('sails')">sails</a>
         <div class="dropdown-content">
-          <a href="boats.html">borasco</a>
-          <a href="boats.html">etesian</a>
-          <a href="#">chubasco</a>
-          <a href="#">levanter</a>
+          <a href="sails.html">borasco</a>
+          <a href="sails.html">etesian</a>
+          <a href="sails.html">chubasco</a>
+          <a href="sails.html">levanter</a>
         </div>
       </div>
 
       <div class="dropdown">
-        <a href="#" class="nav-item" onclick="navigationOpen('foils')">foils</a>
-        <div class="dropdown-content">
-          <a href="boats.html">borasco</a>
-          <a href="foils.html">etesian</a>
-          <a href="#">chubasco</a>
-          <a href="#">levanter</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="boats.html" class="nav-item">parts</a>
+        <a href="parts.html" class="nav-item">parts</a>
       </div>
       <div class="dropdown">
         <a href="index.html#about" class="nav-item">about</a>
@@ -75,45 +67,39 @@
       <a class="mobile-nav-close" onclick="navigationClose('sails')">close</a>
     </nav>
 
-    <nav class="dropdown-mobile" id="nav-list-mobile-foils">
-      <a class="mobile-nav-items" href="boats.html">borasco</a>
-      <a class="mobile-nav-items" href="boats.html">etesian</a>
-      <a class="mobile-nav-items" href="#">chubasco</a>
-      <a class="mobile-nav-items" href="#">levanter</a>
-      <a class="mobile-nav-close" onclick="navigationClose('foils')">close</a>
-    </nav>
   </nav>
+
 
   <div id="main-content">
     <div class="card grid grid-top grid-gutters">
       <section id="product-overview" class="grid-1of3 grid-cell align-end">
         <img class="responsive-img-width" src="img/product-1.jpg" alt="boat diagram">
       </section>
-      <section class="grid-2of3 grid-cell">
+      <section class="grid-2of3 grid-cell table-left-padded">
         <h2>BORASCO 6m</h2>
         <p>A modern, dynamic, high stability, International One Design 6 metre keelboat. Olympic women’s Keelboat class. Elliott 6m are ideal for use in class racing, match racing, open racing, yacht club programmes, keelboat training, youth development.</p>
         <div class="grid full">
           <div class="grid-1of5 grid-cell">
           </div>
           <div class="grid-4of5 grid-cell">
-            <table>
+            <table class="full">
               <tr>
-                <td>price: </td>
+                <td>PRICE:</td>
                 <td class="table-left-padded">  $14 999.99</td>
               </tr>
               <tr>
-                <td>shipping: </td>
+                <td>SHIPPING: </td>
                 <td class="table-left-padded">  calculated at checkout</td>
               </tr>
               <tr>
-                <td>upgrade: </td>
+                <td>UPGRADE: </td>
                 <td class="table-left-padded">  <form>
                   <input type="radio" name="option" value="race" checked> race model<br>
                   <input type="radio" name="option" value="distance"> cruising model<br>
                 </form></td>
               </tr>
               <tr>
-                <td>quantity: </td>
+                <td>QUANTITY: </td>
                 <td class="table-left-padded">  <form id="p-form" ><input id="p-form" type="text" name="quantity"><br></form></td>
               </tr>
               <tr>
@@ -131,7 +117,7 @@
     <div class="card grid grid-top grid-gutters grid-column">
       <h3>SPECIFICS</h3>
       <div class="grid full">
-        <section id="product-overview" class="grid-1of3 grid-cell">
+        <section class="grid-1of3 grid-cell">
           <p>Every Borosco is identical to adhere to one-design class rules. Borosco race features upgraded sail controls and larger foils. Borosco cruising features an upgraded interior and auto-tacking jibs.</p>
           <table>
             <tr>
@@ -156,18 +142,18 @@
             </tr>
           </table>
         </section>
-        <section class="grid-2of3 grid-cell">
+        <section class="grid-2of3 grid-cell table-left-padded">
           <img class="responsive-img-width" src="img/context-boat.jpg" alt="boat diagram">
         </section>
       </div>
     </div>
 
-    <div class="card grid grid-top grid-gutters grid-column">
+    <div class="card full grid grid-top grid-gutters grid-column">
       <h3>COMMENTS</h3>
       <div class="grid full">
 
         <section class="grid-1of3 grid-cell">
-          <div class="card blank full">
+          <div class="card small-card blank full">
             <h3>Leave a comment : </h3>
             <form class="margin-bottom">
               <label>First Name:</label>
@@ -181,21 +167,21 @@
               <label>Comment:</label>
               <input class="full" id="comment-field" type="text" name="comment">
             </form>
-            <div class="button reset fixed-sizing">Submit</div>
+            <div class="checkout-submit next-step fixed-sizing margin-bottom">Submit</div>
           </div>
 
         </section>
 
-        <section id="product-overview" class="grid-2of3 grid-cell">
-          <div class="card blank full">
+        <section class="grid-2of3 grid-cell table-left-padded">
+          <div class="card small-card blank full">
             <h4>Sarah Connor</h4>
             <p class="submitted-comment">Really crushes on the upwind beat. Quite the tub running nfs though!</p>
           </div>
-          <div class="card blank full">
+          <div class="card small-card blank full">
             <h4>Rick Deckard</h4>
             <p class="submitted-comment">Great hull, but terrible sails. Replace them asap for serious racing and keep these rags for fun sails.</p>
           </div>
-          <div class="card blank full">
+          <div class="card small-card blank full">
             <h4>Randy Marsh</h4>
             <p class="submitted-comment">My son love his boat that I bought him this year. Super simple for a beginner and there's room for both of us.</p>
           </div>
