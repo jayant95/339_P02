@@ -111,11 +111,16 @@
 	.cart-product td {
 		font-size: 0.9rem;
 	}
+
 }
 
 @media (min-width: 56.25em) {
 	.card {
 		width: 70%;
+	}
+
+	.small-card{
+		width: 100%;
 	}
 
 	.dropdown-content {
