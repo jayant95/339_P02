@@ -9,6 +9,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/fonts.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 
@@ -42,15 +43,6 @@
       </div>
 
       <div class="dropdown">
-        <a href="#" class="nav-item" onclick="navigationOpen('foils')">foils</a>
-        <div class="dropdown-content">
-          <a href="boats.html">borasco</a>
-          <a href="foils.html">etesian</a>
-          <a href="#">chubasco</a>
-          <a href="#">levanter</a>
-        </div>
-      </div>
-      <div class="dropdown">
         <a href="boats.html" class="nav-item">parts</a>
       </div>
       <div class="dropdown">
@@ -74,35 +66,22 @@
       <a class="mobile-nav-close" onclick="navigationClose('sails')">close</a>
     </nav>
 
-    <nav class="dropdown-mobile" id="nav-list-mobile-foils">
-      <a class="mobile-nav-items" href="boats.html">borasco</a>
-      <a class="mobile-nav-items" href="boats.html">etesian</a>
-      <a class="mobile-nav-items" href="#">chubasco</a>
-      <a class="mobile-nav-items" href="#">levanter</a>
-      <a class="mobile-nav-close" onclick="navigationClose('foils')">close</a>
-    </nav>
   </nav>
 
   <div id="main-content">
-  <div id="about" class=" grid grid-top grid-gutters ">
-      <section id="product-overview" class="grid-2of3 grid-cell align-end">
-      </section>
-      <section class="card about-info">
-        <h2>ABOUT</h2>
-        <p>"Uniting simplicity and performance in all weather and all latitudes, with increasingly personalized uses, to make dreams all the more accessible is our goal. Through the marriage of experience and technology we use the most modern materials through traditional boat building techniques to bring you further and faster every day, every journey." </p>
-        <div class="grid full">
-          <div class="grid-1of5 grid-cell">
-          </div>
-          <div class="grid-4of5 grid-cell">
-          </div>
-        </div>
-      </section>
+    <div id="about" class="full grid grid-top">
+    <div id="background-image">
+      </div>
+    <section class="card about-info">
+      <h2>ABOUT</h2>
+      <p>"Uniting simplicity and performance in all weather and all latitudes, with increasingly personalized uses, to make dreams all the more accessible is our goal. Through the marriage of experience and technology we use the most modern materials through traditional boat building techniques to bring you further and faster every day, every journey." </p>
+    </section>
     </div>
-    <article class="card grid grid-top grid-gutters ">
+    <article id="news" class="card grid grid-top full ">
       <section id="product-overview" class="grid-2of3 grid-cell align-end">
         <img class="responsive-img-width" src="img/racing.jpg" alt="boat diagram">
       </section>
-      <section class="grid-1of3 grid-cell">
+      <section class="grid-1of3 grid-cell grid-padded">
         <h2>RECENT NEWS</h2>
         <h4 class="submitted-comment">Author: Nathan Drake</h4>
         <h4 class="submitted-comment">Date: 24/10/2018</h4>
