@@ -301,7 +301,7 @@ form.margin-bottom{
 
 .cart-product td {
   padding-left: 0.5rem;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   padding-bottom: 2rem;
   padding-top: 1rem;
   /*margin-bottom: 3rem;*/
@@ -312,8 +312,12 @@ form.margin-bottom{
   display: none;
 }
 
-.cart-product-details, .cart-product-price {
-  width: 30%;
+.cart-product-details {
+  width: 60%;
+}
+
+.cart-product-price {
+  width: 15%;
 }
 
 .cart-product-quantity {
@@ -363,11 +367,11 @@ form.margin-bottom{
 .cart-remove-button {
   text-align: right;
   padding-right: 2rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .cart-product-price, .cart-product-details {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .cart-remove-button a {
@@ -532,7 +536,7 @@ form.margin-bottom{
   padding-bottom: 1rem;
   border-bottom: 1px solid white;
   position: absolute;
-  bottom: 3.5%;
+  bottom: 0%;
 }
 
 .footer-left-panel, .footer-right-panel {
