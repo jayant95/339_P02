@@ -44,6 +44,14 @@
 	.cart-product td {
 		font-size: 0.7rem;
 	}
+
+	.page-footer {
+		bottom: 0;
+	}
+
+	#news {
+		padding-bottom: 5rem;
+	}
 }
 
 @media(min-width: 40em){

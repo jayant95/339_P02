@@ -15,6 +15,12 @@ body {
   color: #495874;
   margin: 0;
   font-family: "Brandon-reg";
+  min-height: 100%;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
 }
 
 a{
@@ -525,6 +531,8 @@ form.margin-bottom{
   flex-wrap: wrap;
   padding-bottom: 1rem;
   border-bottom: 1px solid white;
+  position: absolute;
+  bottom: 3.5%;
 }
 
 .footer-left-panel, .footer-right-panel {
@@ -596,6 +604,7 @@ form.margin-bottom{
 #news{
   padding: 0;
   margin-bottom: 0;
+  padding-bottom: 10rem;
 }
 
 #background-image{
