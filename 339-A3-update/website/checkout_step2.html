@@ -87,26 +87,57 @@
     <div id="main-content">
       <div class="card grid grid-top grid-gutters">
         <div class="checkout-steps">
-          <p>Step 1</p>
-          <p class="steps-step2 step-active">Step 2</p>
-          <p>Step 3</p>
+          <p>Billing Info</p>
+          <p class="steps-step2 step-active">Payment Info</p>
+          <p>Review Order</p>
         </div>
         <form class="checkout-form">
           <div id="checkout-payment" class="payment-form">
             <h2>Payment Information</h2>
-            <label>Card Type</label>
-            <!-- https://www.w3schools.com/tags/tag_select.asp -->
-            <select class="card-options">
-              <option value="visa">Visa</option>
-              <option value="mastercard">MasterCard</option>
-              <option value="amex">American Express</option>
-            </select>
-            <label>Cardholder's Name</label>
-            <input type="text" placeholder="John Doe">
-            <label>Card Number</label>
-            <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
+            <div class="checkout-grouping checkout-grouping-left">
+              <label>Card Type</label>
+              <!-- https://www.w3schools.com/tags/tag_select.asp -->
+              <select class="card-options">
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="amex">American Express</option>
+              </select>
+            </div>
+            <div class="checkout-grouping checkout-grouping-right">
+              <label>Cardholder's Name</label>
+              <input type="text" placeholder="John Doe">
+            </div>
+            <div class="checkout-grouping checkout-grouping-left">
+              <label>Card Number</label>
+              <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
+            </div>
+            <div class="checkout-grouping checkout-grouping-right">
             <label>Expiry Date</label>
-            <input type="text" placeholder="MM/YY">
+            <select class="card-options expiry-month">
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+              <option>04</option>
+              <option>05</option>
+              <option>06</option>
+              <option>07</option>
+              <option>08</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+            <select class="card-options expiry-year">
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+            </select>
+              <!-- <input type="text" placeholder="MM/YY"> -->
+            </div>
             <div class="checkout-button-div back-next-buttons">
               <a href="checkout.html" class="checkout-submit previous-step">Billing Info</a>
               <a href="checkout_step3.html" class="checkout-submit next-step">Review Order</a>

@@ -476,9 +476,6 @@ form.margin-bottom{
   margin-left: 0.5rem;
 }
 
-.small-card{
-
-}
 
 .card-options {
   margin-top: 0.5rem;
@@ -488,6 +485,14 @@ form.margin-bottom{
   font-size: 0.9rem;
   width: 100%;
   height: 3rem;
+}
+
+.card-options.expiry-month {
+  width: 29%;
+}
+
+.card-options.expiry-year {
+  width: 69.5%;
 }
 
 .previous-step {
@@ -500,6 +505,11 @@ form.margin-bottom{
 
 .review-form p {
   margin-top: 0.5rem;
+}
+
+.review-right-panel {
+  margin-top: 4rem;
+  text-align: right;
 }
 
 
