@@ -48,10 +48,6 @@
 	.page-footer {
 		bottom: 0;
 	}
-
-	#news {
-		padding-bottom: 5rem;
-	}
 }
 
 @media(min-width: 40em){
@@ -140,7 +136,7 @@
 }
 
 @media (min-width: 56.25em) {
-	.card {
+	.card, .page-header {
 		width: 70%;
 	}
 
