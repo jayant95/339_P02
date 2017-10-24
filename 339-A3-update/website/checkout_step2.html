@@ -11,63 +11,45 @@
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/media-queries.css" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <script type="text/javascript" src="js/navigation.js"></script>
   </head>
 
   <body>
-  <nav class="main-nav">
-    <div class="site-logo">
-      <a href="index.html" class="main-logo">
-        <img src="img/logo-339.png" alt="navem logo" class="logo">
-      </a>
-      <a href="index.html" class="logo-name">NAVEM</a>
-    </div>
-    <nav class="nav-options">
-      <div class="dropdown">
-        <a href="#" class="nav-item" onclick="navigationOpen('boats')">boats</a>
-        <div class="dropdown-content">
-          <a href="boats.html">borasco</a>
-          <a href="boats.html">etesian</a>
-          <a href="boats.html">chubasco</a>
-          <a href="boats.html">levanter</a>
+    <nav class="main-nav">
+      <div class="site-logo">
+        <a href="index.html" class="main-logo">
+          <img src="img/logo-339.png" alt="navem logo" class="logo">
+        </a>
+        <a href="index.html" class="logo-name">NAVEM</a>
+      </div>
+      <nav class="nav-options">
+        <div class="dropdown">
+          <a href="boat_categories.html" class="nav-item">boats</a>
+          <div class="dropdown-content">
+            <a href="boats.html">borasco</a>
+            <a href="boats.html">etesian</a>
+            <a href="boats.html">chubasco</a>
+            <a href="boats.html">levanter</a>
+          </div>
         </div>
-      </div>
 
-      <div class="dropdown">
-        <a href="#" class="nav-item" onclick="navigationOpen('sails')">sails</a>
-        <div class="dropdown-content">
-          <a href="sails.html">borasco</a>
-          <a href="sails.html">etesian</a>
-          <a href="sails.html">chubasco</a>
-          <a href="sails.html">levanter</a>
+        <div class="dropdown">
+          <a href="sail_categories.html" class="nav-item">sails</a>
+          <div class="dropdown-content">
+            <a href="sails.html">borasco</a>
+            <a href="sails.html">etesian</a>
+            <a href="sails.html">chubasco</a>
+            <a href="sails.html">levanter</a>
+          </div>
         </div>
-      </div>
 
-      <div class="dropdown">
-        <a href="parts.html" class="nav-item">parts</a>
-      </div>
-      <div class="dropdown">
-        <a href="index.html#about" class="nav-item">about</a>
-      </div>
+        <div class="dropdown">
+          <a href="parts.html" class="nav-item">parts</a>
+        </div>
+        <div class="dropdown">
+          <a href="index.html#about" class="nav-item">about</a>
+        </div>
+      </nav>
     </nav>
-
-    <nav class="dropdown-mobile" id="nav-list-mobile-boats">
-      <a class="mobile-nav-items" href="boats.html">borasco</a>
-      <a class="mobile-nav-items" href="boats.html">etesian</a>
-      <a class="mobile-nav-items" href="#">chubasco</a>
-      <a class="mobile-nav-items" href="#">levanter</a>
-      <a class="mobile-nav-close" onclick="navigationClose('boats')">close</a>
-    </nav>
-
-    <nav class="dropdown-mobile" id="nav-list-mobile-sails">
-      <a class="mobile-nav-items" href="boats.html">borasco</a>
-      <a class="mobile-nav-items" href="boats.html">etesian</a>
-      <a class="mobile-nav-items" href="#">chubasco</a>
-      <a class="mobile-nav-items" href="#">levanter</a>
-      <a class="mobile-nav-close" onclick="navigationClose('sails')">close</a>
-    </nav>
-
-  </nav>
 
     <div id="main-content">
       <h1 class="page-header">Checkout</h1>
@@ -145,9 +127,5 @@
         <a class="footer-item" href="#">Youtube</a>
       </div>
     </div>
-
-    <script type="text/javascript" src="js/navigation.js"></script>
   </body>
-
-
 </html>

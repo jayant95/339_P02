@@ -176,36 +176,6 @@ form.margin-bottom{
   background-color: rgb(240, 240, 240);
 }
 
-.dropdown-mobile {
-  top: 0%;
-  position: fixed;
-  display: none;
-  flex-direction: column;
-  width: 100%;
-  background-color: white;
-  height: 91%;
-  z-index: 1;
-}
-
-.dropdown-mobile .mobile-nav-items {
-  text-align: center;
-  margin-top: 3rem;
-  /*line-height: 130px;*/
-  flex: 1;
-  font-size: 1.5rem;
-  border-bottom: 1px solid black;
-}
-
-.mobile-nav-close {
-  height: 4rem;
-  text-align: center;
-  background-color: #DF8C6B;
-  color: white;
-  font-size: 1rem;
-  padding-top: 1.3rem;
-  cursor: pointer;
-}
-
 /*-----PRODUCT LISTING---------------------*/
 
 .product-listing-all {
@@ -777,4 +747,48 @@ em{
 td{
   padding: 0.4rem;
   vertical-align: top;
+}
+
+
+/*------BOAT_CATEGORIES.html-------------*/
+
+.model-categories {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.category-page-header {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  margin-top: 3rem;
+}
+
+.product-header.category {
+  background-color: transparent;
+}
+
+.model-categories .categories {
+  /*margin-bottom: 1.3rem;*/
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  background-color: rgba(230, 230, 230, 0.70);
+  /*padding: 1rem;*/
+}
+
+/*.category-header-layer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}*/
+
+.model-categories img {
+  display: none;
+  visibility: hidden;
 }

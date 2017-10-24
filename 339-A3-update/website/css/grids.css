@@ -52,6 +52,30 @@
 	.page-footer {
 		bottom: 0;
 	}
+
+	.model-categories img {
+		display: inline-block;
+		visibility: visible;
+	}
+
+	.model-categories.sails img {
+		width: 75%;
+	}
+
+	.model-categories .categories {
+		background-color: transparent;
+	}
+
+	.product-header.category {
+		padding-top: 1.5rem;
+		background-color: rgba(230, 230, 230, 0.85);
+	}
+
+	.product-listing.categories:hover .product-header.category {
+		color: white;
+		background-color: rgba(50, 123, 218, 0.85);
+		cursor: pointer;
+	}
 }
 
 @media(min-width: 40em){
@@ -195,11 +219,26 @@
 	.cart-product-price, .cart-remove-button, .cart-product-quantity, .cart-product-details {
 	  line-height: 7rem;
 	}
+
+	.model-categories .categories {
+		padding-top: 2.5rem;
+	}
+
+	.model-categories {
+		margin-bottom: 2rem;
+	}
 }
 
 @media (min-width: 78.125em) {
 	.cart-product-price, .cart-remove-button, .cart-product-quantity, .cart-product-details {
 	  line-height: 10rem;
+	}
+}
+
+@media (min-width: 92.5625em) {
+	.category-page-header {
+		margin-left: 6rem;
+		width: 100%;
 	}
 }
 
