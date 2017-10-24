@@ -32,6 +32,10 @@
 		margin-bottom: 0rem;
 	}
 
+	#main-content{
+		margin-bottom: 2rem;
+	}
+
 	.dropdown {
 		border-right: none;
 	}
