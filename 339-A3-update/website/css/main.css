@@ -462,6 +462,22 @@ form.margin-bottom{
   margin-top: 0;
 }
 
+.checkout-step-link {
+  color: black;
+}
+
+.checkout-step-link.active {
+  color: white;
+}
+
+.checkout-step-link:active {
+  background-color: white;
+}
+
+.checkout-step-link.active:active {
+  background-color: #327bda;
+}
+
 .checkout-button-div {
   display: flex;
 }
