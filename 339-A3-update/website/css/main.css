@@ -418,13 +418,19 @@ form.margin-bottom{
   display: flex;
 }
 
-.checkout-steps p {
+.checkout-steps a {
   display: inline;
   margin: 0;
   text-align: center;
   padding: 0.5rem;
   font-size: 1rem;
   flex-grow: 1;
+}
+
+.checkout-steps p {
+  display: inline;
+  margin: 0;
+  text-align: center;
 }
 
 .steps-step2 {
@@ -454,11 +460,12 @@ form.margin-bottom{
   margin-top: 0;
 }
 
-.checkout-step-link {
+.checkout-step-link p {
   color: black;
+  font-size: 0.8rem;
 }
 
-.checkout-step-link.active {
+.checkout-step-link.active p {
   color: white;
 }
 
