@@ -33,11 +33,6 @@ a:hover{
   color: #88afe2;
 }
 
-a:active{
-  transition: 0.2s;
-  background-color: #327bda;
-}
-
 p{
   margin: 0;
   margin-bottom: 1rem;
