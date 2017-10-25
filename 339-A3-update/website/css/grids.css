@@ -32,9 +32,9 @@
 		margin-bottom: 0rem;
 	}
 
-	#main-content{
+	/*#main-content{
 		margin-bottom: 2rem;
-	}
+	}*/
 
 	.dropdown {
 		border-right: none;
@@ -98,6 +98,10 @@
 		width: 49%;
 		vertical-align: top;
 		line-height: 2rem;
+	}
+
+	.footer-right-panel {
+		font-size: 0.7rem;
 	}
 }
 
@@ -191,6 +195,10 @@
 
 	.checkout-step-link p {
 		font-size: 1rem;
+	}
+
+	.citation-header {
+	  width: 70%;
 	}
 }
 
