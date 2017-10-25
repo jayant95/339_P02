@@ -797,3 +797,38 @@ td{
   display: none;
   visibility: hidden;
 }
+
+/*--------CONFIRMATION PAGE-------------------*/
+
+.confirmation-thanks {
+  margin: 0;
+}
+
+.confirmation-summary {
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+.order-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-item {
+  text-align: left;
+}
+
+.order-price {
+  text-align: right;
+}
+
+.confirmation-price-total {
+  text-align: right;
+  border-top: 1px solid black;
+}
+
+.checkout-submit.confirmation {
+  flex-grow: 1;
+}
