@@ -782,6 +782,11 @@ td{
   /*padding: 1rem;*/
 }
 
+.product-listing.categories:hover .product-header.category  {
+  background: transparent;
+  color: rgba(50, 123, 218, 0.85);
+}
+
 /*.category-header-layer {
   position: absolute;
   bottom: 0;
