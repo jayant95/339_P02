@@ -83,7 +83,13 @@
               </tr>
               <tr>
                 <td>QUANTITY: </td>
-                <td class="table-left-padded">  <form id="p-form" ><input id="p-form" type="text" name="quantity"><br></form></td>
+                <td class="table-left-padded">
+                  <form>
+                    <input type='text' name='qty' id='qty' />
+                    <input type='button' name='add' onclick='javascript: document.getElementById("qty").value++;' value='+'/>
+                    <input type='button' name='subtract' onclick='javascript: document.getElementById("qty").value--;' value='-'/>
+                  </form>
+                </td>
               </tr>
               <tr>
                 <td></td>

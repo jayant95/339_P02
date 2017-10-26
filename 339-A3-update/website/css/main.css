@@ -618,6 +618,11 @@ form.margin-bottom{
   width: 100%;
  }
 
+ #qty{
+  text-align: right;
+  width: 1.5rem;
+ }
+
 #news{
   padding: 0;
   /*margin-bottom: 5rem;*/
