@@ -2,7 +2,41 @@
 	box-sizing: border-box;
 }
 
+@media(min-width: 22.5em){
+	.product-header {
+  color: rgba(50, 123, 218, 0.85);
+  background-color: rgba(230, 230, 230, 0.70);
+  font-size: 1rem;
+  font-family: "Brandon-reg";
+  padding: 1rem;
+  padding-top: 2.5rem;
+  transition: 1s;
+}
+
+.product-header h3 {
+  display: inline-block;
+  margin: 0;
+}
+
+.product-header p {
+  display: inline-block;
+  margin-top: 0.3rem;
+  margin-bottom: 0rem;
+  float: right;
+  font-size: 1rem;
+}
+
+.product-header-layer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+}
+
 @media(min-width: 32.75em){
+	#main-content{
+	margin-bottom: 7rem;
+}
 		form.margin-bottom{
 		width: 48%;
 	}
