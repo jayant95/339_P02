@@ -186,6 +186,7 @@ form.margin-bottom{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 .product-listing {
@@ -193,6 +194,10 @@ form.margin-bottom{
   display: inline-block;
   flex-basis: 20rem;
   margin: 1rem;
+}
+
+.p-small{
+  flex-basis:10rem;
 }
 
 .product-header {
