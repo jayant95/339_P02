@@ -251,7 +251,12 @@
 }
 
 @media (min-width: 22.5em) {
-  .product-header {
-    text-align: left;
+
+	.product-header {
+		text-align: left;
+	}
+
+  .product-header.category {
+    text-align: center;
   }
 }
