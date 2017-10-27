@@ -666,10 +666,6 @@ form.margin-bottom{
   margin-left: auto;
 }
 
-.blank{
-  background-color: white;
-}
-
 .submitted-comment{
   font-style: italic;
   font-weight: lighter;
@@ -877,4 +873,41 @@ td{
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
   margin-top: 3rem;
+}
+
+.swatch{
+  display: inline-flex;
+  width: 6em;
+  height: 4em;
+  background-color: grey;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin:0.5em;
+}
+
+.standard-highlight{
+  background-color: #327bda;
+  color: white;
+}
+
+.extreme-highlight{
+  background-color: #DF8C6B;
+
+}
+.confirmation{
+  background-color: #32ca9e;
+  color: white;
+}
+.plain{
+  background-color: #ffffff;
+  color: #495874;
+}
+.dark{
+  background-color: #495874;
+  color: white;
+}
+
+.blank{
+  background-color: white;
 }

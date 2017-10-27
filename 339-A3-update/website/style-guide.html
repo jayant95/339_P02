@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Change the name once we know what product this is. -->
+  <title>Navem - Product Listing 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="main-nav">
+    <div class="site-logo">
+      <a href="index.html" class="main-logo">
+        <img src="img/logo-339.png" alt="navem logo" class="logo">
+      </a>
+      <a href="index.html" class="logo-name">NAVEM</a>
+    </div>
+    <nav class="nav-options">
+      <div class="dropdown">
+        <a href="boat_categories.html" class="nav-item">boats</a>
+        <div class="dropdown-content">
+          <a href="boats.html">borasco</a>
+          <a href="boats.html">etesian</a>
+          <a href="boats.html">chubasco</a>
+          <a href="boats.html">levanter</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="sail_categories.html" class="nav-item">sails</a>
+        <div class="dropdown-content">
+          <a href="sails.html">borasco</a>
+          <a href="sails.html">etesian</a>
+          <a href="sails.html">chubasco</a>
+          <a href="sails.html">levanter</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="parts.html" class="nav-item">parts</a>
+      </div>
+      <div class="dropdown">
+        <a href="index.html#about" class="nav-item">about</a>
+      </div>
+    </nav>
+  </nav>
+
+
+  <div id="main-content">
+
+    <div class="card blank">
+      <h2 class="category-page-header full">INTERACTIVE ELEMENTS</h2>
+    </div>
+    <section class="card ">
+      <h3>in-text link</h3>
+      <p>This is a <a href="#">sample</a> of an in-text link</p>
+      <h4>code:</h4>
+      <code> &lt;p&gt;This is a &lt;a href="#"&gt;sample&lt;/a&gt; of an in-text link&lt;/p&gt;</code>
+    </section>
+    <section class="card">
+      <h3>navigation button</h3>
+      <nav class="nav-item fixed-sizing">
+        <a href="#">button </a>
+      </nav>
+      <h4>code:</h4>
+      <code>
+        &lt;nav class="nav-item fixed-sizing"&gt;
+        &lt;a href="#"&gt;button &lt;/a&gt;
+        &lt;/nav&gt;
+      </code>
+    </section>
+    <section class="card">
+      <h3>form buttons</h3>
+      <a href="cart.html"><div class="checkout-submit next-step fixed-sizing">Submit</div></a>
+      <a href="cart.html"><div class="checkout-submit next-step fixed-sizing">Reset</div></a>
+      <h4>code:</h4>
+      <code>
+        &lt;a href="cart.html"&gt;&lt;div class="checkout-submit next-step fixed-sizing"&gt;Reset&lt;/div&gt;&lt;/a&gt;
+      </code>
+    </section>
+    <section class="card">
+      <h3>input field</h3>
+      <form class="margin-bottom">
+        <label class="block">Label:</label>
+        <input class="grid-1of3" type="text" name="firstname">
+      </form>
+      <h4>code:</h4>
+      <code>
+        &lt;form&gt;
+        &lt;label for="form-example"&gt;title&lt;/label&gt;
+        &lt;input id="form-example" type="text" name="basic-form" value="type here"&gt;
+        &lt;/form&gt;
+      </code>
+    </section>
+
+    <div class="card blank">
+      <h2 class="category-page-header full">TEXT STYLING</h2>
+    </div>
+
+    <section class="card">
+      <h3>headings</h3>
+      <h1>heading 1</h1>
+      <h2>heading 2</h2>
+      <h3>heading 3</h3>
+      <h4>code:</h4>
+      <code>
+        &lt;h1&gt;heading 1&lt;/h1&gt;
+        &lt;h2&gt;heading 2&lt;/h2&gt;
+        &lt;h3&gt;heading 3&lt;/h3&gt;
+      </code>
+    </section>
+
+    <section class="card">
+      <h3>paragraphs</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat diam, iaculis ac erat et, commodo ultricies diam. Nullam quam arcu, blandit convallis odio quis, semper ultrices orci. Curabitur eu convallis ligula. Maecenas turpis est, pulvinar ac lacinia a, commodo nec metus. Nam id massa laoreet, condimentum dui sed, aliquet ex. Nam dignissim, eros at rhoncus dapibus, mauris risus ultricies nibh, at ornare tellus ligula ut leo. Vivamus tempus blandit semper. Ut justo tortor, venenatis eu rutrum sit amet, pretium ut dolor. Fusce ac quam tincidunt, consectetur neque non, ullamcorper sapien. Praesent maximus molestie luctus. Phasellus blandit molestie hendrerit. Donec interdum, lectus nec dignissim dapibus, urna tortor interdum urna, in dictum metus eros bibendum mi. Nunc scelerisque metus purus, nec suscipit velit finibus eget. Sed placerat libero sed fringilla accumsan.</p>
+      <h4>code:</h4>
+      <code>
+        &lt;p&gt; lorem ipsum . . . &lt;/p&gt;
+      </code>
+    </section>
+
+    <section class="card">
+      <h3>bulleted lists</h3>
+      <ul>
+        <li>this is</li>
+        <li>a <strong>bulleted</strong></li>
+        <li>list example</li>
+      </ul>
+      <h4>code:</h4>
+      <code>
+        &lt;ul&gt;
+        &lt;li&gt;this is&lt;/li&gt;
+        &lt;li&gt;a &lt;strong&gt;bulleted&lt;/strong&gt;&lt;/li&gt;
+        &lt;li&gt;list example&lt;/li&gt;
+        &lt;/ul&gt;
+      </code>
+    </section>
+
+    <section class="card">
+      <h3>numbered lists</h3>
+      <ol>
+        <li>this is</li>
+        <li>a <strong>numbered</strong></li>
+        <li>list example</li>
+      </ol>
+      <h4>code:</h4>
+      <code>
+        &lt;ol&gt;
+        &lt;li&gt;this is&lt;/li&gt;
+        &lt;li&gt;a &lt;strong&gt;numbered&lt;/strong&gt;&lt;/li&gt;
+        &lt;li&gt;list example&lt;/li&gt;
+        &lt;/ol&gt;
+      </code>
+    </section>
+
+    <div class="card blank">
+      <h2 class="category-page-header full">COMBINED ELEMENTS</h2>
+    </div>
+
+    
+
+    <section class="card">
+      <h3>product listing</h3>
+      <div class="product-listing-all">
+        <div class="product-listing">
+          <a href="productListing1.html">
+            <img class="product-img" src="img/product-1.jpg" alt="borosoco 6m sailing">
+            <div class="product-header-layer">
+              <div class="product-header">
+                <h3>BORASCO 6m</h3>
+                <p>$14999.99</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-listing">
+          <a href="productListing1.html">
+            <img class="product-img" src="img/product-2.jpg" alt="Crusader boat diagram">
+            <div class="product-header-layer">
+              <div class="product-header">
+                <h3>BORASCO 7m</h3>
+                <p>$16999.99</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <code> 
+        &lt;div class="product-listing"&gt;
+        &lt;a href="productListing1.html"&gt;
+        &lt;img class="product-img" src="img/product-1.jpg" alt="borosoco 6m sailing"&gt;
+        &lt;div class="product-header-layer"&gt;
+        &lt;div class="product-header"&gt;
+        &lt;h3&gt;BORASCO 6m&lt;/h3&gt;
+        &lt;p&gt;$14999.99&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/a&gt;
+        &lt;/div&gt;
+      </code>
+    </section>
+
+    <section class="card">
+      <h3>grids</h3>
+      <div class="grid grid-top grid-gutters">
+        <section class="card blank full">
+          <p>full width</p>
+        </section>
+      </div>
+
+      <div class="grid grid-top grid-gutters">
+        <section class="card grid-1of2 grid-cell blank"><p>half width</p></section>
+        <section class="card grid-1of2 grid-cell blank"><p>half width</p></section>
+      </div>
+      <div class="grid grid-top grid-gutters">
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-1of2 grid-cell blank"> half width</section>
+      </div>
+      <div class="grid grid-top grid-gutters">
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+      </div>
+      <div class="grid grid-top grid-gutters">
+        <section class="card grid-1of4 grid-cell blank">1/4</section>
+        <section class="card grid-3of4 grid-cell blank">3/4</section>
+      </div>
+      <h4>code:</h4>
+      <code> &lt;section class="card grid-1of4 grid-cell blank"&gt;1/4&lt;/section&gt;</code>
+    </section>
+
+    <section class="card">
+      <h3>colour swatches</h3>
+      <section class="card blank">
+        <div class="swatch standard-highlight">#327bda</div>
+        <h4 class="display-inline">standard highlight</h4>
+        <p class="display-inline">The standard blue colour is used consistently across the website for both emphasis and as a general signal of interactivity.</p>
+      </section>
+      <section class="card dark">
+        <div class="swatch plain">#ffffff</div>
+        <h4 class="display-inline">blank</h4>
+        <p class="display-inline">Non-essential elements that will benefit from a lighter shade will use the blank white shade.</p>
+      </section>
+      <section class="card blank">
+        <div class="swatch dark">#495874</div>
+        <h4 class="display-inline">dark</h4>
+        <p class="display-inline">Non-essential elements that will benefit from a darker shade will use the dark blue shade.</p>
+      </section>
+      <h4>code:</h4>
+      <code> &lt;div class="swatch dark"&gt;#495874&lt;/div&gt;</code>
+    </section> 
+  </div>
+
+
+
+
+  <div class="page-footer">
+    <div class="footer-left-panel">
+      <p>© 2017 NAVEM</p>
+    </div>
+
+    <div class="footer-right-panel">
+      <p class="footer-item">(604) 732 6457</p>
+      <a class="footer-item" href="#">Facebook</a>
+      <a class="footer-item" href="#">Twitter</a>
+      <a class="footer-item" href="#">Youtube</a>
+    </div>
+    <div class="footer-other-links">
+      <div class="other-links">
+        <a href="https://github.com/jayant95/339_P02" class="footer-item">GitHub </a>
+        <a href="citations.html" class="footer-item middle">Citations</a>
+        <a href="#" class="footer-item">Style Guide</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
