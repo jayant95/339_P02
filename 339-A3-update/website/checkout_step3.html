@@ -2,113 +2,113 @@
 
 <html lang="en">
 
-  <head>
-    <title>Navem - Checkout</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
-    <link href="css/main.css" rel="stylesheet">
-  	<link href="css/fonts.css" rel="stylesheet">
-    <link href="css/grids.css" rel="stylesheet">
-    <link href="css/media-queries.css" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-  </head>
+<head>
+  <title>Navem - Checkout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--borrowed from lecture example-->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/media-queries.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
 
-  <body>
-    <nav class="main-nav">
-      <div class="site-logo">
-        <a href="index.html" class="main-logo">
-          <img src="img/logo-339.png" alt="navem logo" class="logo">
-        </a>
-        <a href="index.html" class="logo-name">NAVEM</a>
+<body>
+  <nav class="main-nav">
+    <div class="site-logo">
+      <a href="index.html" class="main-logo">
+        <img src="img/logo-339.png" alt="navem logo" class="logo">
+      </a>
+      <a href="index.html" class="logo-name">NAVEM</a>
+    </div>
+    <nav class="nav-options">
+      <div class="dropdown">
+        <a href="boat_categories.html" class="nav-item">boats</a>
+        <div class="dropdown-content">
+          <a href="boats.html">borasco</a>
+          <a href="boats.html">etesian</a>
+          <a href="boats.html">chubasco</a>
+          <a href="boats.html">levanter</a>
+        </div>
       </div>
-      <nav class="nav-options">
-        <div class="dropdown">
-          <a href="boat_categories.html" class="nav-item">boats</a>
-          <div class="dropdown-content">
-            <a href="boats.html">borasco</a>
-            <a href="boats.html">etesian</a>
-            <a href="boats.html">chubasco</a>
-            <a href="boats.html">levanter</a>
-          </div>
-        </div>
 
-        <div class="dropdown">
-          <a href="sail_categories.html" class="nav-item">sails</a>
-          <div class="dropdown-content">
-            <a href="sails.html">borasco</a>
-            <a href="sails.html">etesian</a>
-            <a href="sails.html">chubasco</a>
-            <a href="sails.html">levanter</a>
-          </div>
+      <div class="dropdown">
+        <a href="sail_categories.html" class="nav-item">sails</a>
+        <div class="dropdown-content">
+          <a href="sails.html">borasco</a>
+          <a href="sails.html">etesian</a>
+          <a href="sails.html">chubasco</a>
+          <a href="sails.html">levanter</a>
         </div>
+      </div>
 
-        <div class="dropdown">
-          <a href="parts.html" class="nav-item">parts</a>
-        </div>
-        <div class="dropdown">
-          <a href="index.html#about" class="nav-item">about</a>
-        </div>
-      </nav>
+      <div class="dropdown">
+        <a href="parts.html" class="nav-item">parts</a>
+      </div>
+      <div class="dropdown">
+        <a href="index.html#about" class="nav-item">about</a>
+      </div>
     </nav>
+  </nav>
 
-    <div id="main-content">
-      <h1 class="page-header">Checkout</h1>
-      <div class="card grid grid-top grid-gutters">
-        <div class="checkout-steps">
-          <a class="checkout-step-link" href="checkout.html"><p>Billing Info</p></a>
-          <a class="checkout-step-link steps-step2" href="checkout_step2.html"><p>Payment Info</p></a>
-          <a class="checkout-step-link  active step-active" href="checkout_step3.html"><p>Review Order</p></a>
-        </div>
-        <form class="checkout-form">
-          <div id="checkout-review" class="review-form">
-            <h2>Review Order</h2>
-            <div class="review-left-panel">
-              <h3>Name</h3>
-              <p>John Doe</p>
-              <h3>Address</h3>
-              <p>123 Alpha Street</p>
-              <p>Surrey V6D 1A4</p>
-              <p>Canada</p>
-              <h3>Payment</h3>
-              <p>John A. Doe</p>
-              <p>xxxx-xxxx-xxxx-2341</p>
-              <p>VISA | 10/2018</p>
-            </div>
-            <div class="review-right-panel">
-              <p>CRUSADER LINE x 2 <strong>$7999.98</strong></p>
-              <p>BOROSCO 9M x 1 <strong>$19999.99</strong></p>
-              <p>BOROSCO 12M x 1 <strong>$39999.99</strong></p>
-              <p>Subtotal <strong>$67999.96</strong></p>
-            </div>
-
-            <div class="checkout-button-div back-next-buttons">
-              <a href="checkout_step2.html" class="checkout-submit previous-step">Payment Info</a>
-              <a href="confirmation.html" class="checkout-submit next-step">Submit Order</a>
-            </div>
+  <div id="main-content">
+    <h1 class="page-header">Checkout</h1>
+    <div class="card grid grid-top grid-gutters">
+      <div class="checkout-steps">
+        <a class="checkout-step-link" href="checkout.html"><p>Billing Info</p></a>
+        <a class="checkout-step-link steps-step2" href="checkout_step2.html"><p>Payment Info</p></a>
+        <a class="checkout-step-link  active step-active" href="checkout_step3.html"><p>Review Order</p></a>
+      </div>
+      <form class="checkout-form">
+        <div id="checkout-review" class="review-form">
+          <h2>Review Order</h2>
+          <div class="review-left-panel">
+            <h3>Name</h3>
+            <p>John Doe</p>
+            <h3>Address</h3>
+            <p>123 Alpha Street</p>
+            <p>Surrey V6D 1A4</p>
+            <p>Canada</p>
+            <h3>Payment</h3>
+            <p>John A. Doe</p>
+            <p>xxxx-xxxx-xxxx-2341</p>
+            <p>VISA | 10/2018</p>
           </div>
-        </form>
-      </div>
-    </div>
+          <div class="review-right-panel">
+            <p>CRUSADER LINE x 2 <strong>$7999.98</strong></p>
+            <p>BOROSCO 9M x 1 <strong>$19999.99</strong></p>
+            <p>BOROSCO 12M x 1 <strong>$39999.99</strong></p>
+            <p>Subtotal <strong>$67999.96</strong></p>
+          </div>
 
-
-    <div class="page-footer">
-      <div class="footer-left-panel">
-        <p>© 2017 NAVEM</p>
-      </div>
-
-      <div class="footer-right-panel">
-        <p class="footer-item">(604) 732 6457</p>
-        <a class="footer-item" href="#">Facebook</a>
-        <a class="footer-item" href="#">Twitter</a>
-        <a class="footer-item" href="#">Youtube</a>
-      </div>
-      <div class="footer-other-links">
-        <div class="other-links">
-          <a href="https://github.com/jayant95/339_P02" class="footer-item">GitHub </a>
-          <a href="citations.html" class="footer-item middle">Citations</a>
-          <a href="#" class="footer-item">Style Guide</a>
+          <div class="checkout-button-div back-next-buttons">
+            <a href="checkout_step2.html" class="checkout-submit previous-step">Payment Info</a>
+            <a href="confirmation.html" class="checkout-submit next-step">Submit Order</a>
+          </div>
         </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="page-footer">
+    <div class="footer-left-panel">
+      <p>© 2017 NAVEM</p>
+    </div>
+
+    <div class="footer-right-panel">
+      <p class="footer-item">(604) 732 6457</p>
+      <a class="footer-item" href="#">Facebook</a>
+      <a class="footer-item" href="#">Twitter</a>
+      <a class="footer-item" href="#">Youtube</a>
+    </div>
+    <div class="footer-other-links">
+      <div class="other-links">
+        <a href="https://github.com/jayant95/339_P02" class="footer-item">GitHub </a>
+        <a href="citations.html" class="footer-item middle">Citations</a>
+        <a href="style-guide.html" class="footer-item">Style Guide</a>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
