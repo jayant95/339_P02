@@ -250,22 +250,8 @@
 	}
 }
 
-/*@media (max-width: 47.5em) {
-  .cart-product-image, .cart-header-space {
-    display: none;
+@media (min-width: 22.5em) {
+  .product-header {
+    text-align: left;
   }
-}*/
-
-/*@media (max-width: 31em) {
-  /*.cart-product-details {
-    font-size: 0.7rem;
-  }*/
-
-  /*.cart-product-price {
-    font-size: 0.7rem;
-  }*/
-/*}*/
-/*
-@media (min-width: 28.125em) {
-
-}*/
+}
