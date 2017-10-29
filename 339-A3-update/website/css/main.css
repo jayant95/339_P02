@@ -778,7 +778,6 @@ td{
 /*------BOAT_CATEGORIES.html-------------*/
 
 .model-categories {
-  width: 95%;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -793,6 +792,7 @@ td{
   font-size: 1.5rem;
   margin-bottom: 0.8rem;
   margin-top: 3rem;
+  text-align: center;
 }
 
 .product-header.category {
