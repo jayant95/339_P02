@@ -249,8 +249,12 @@
 
 @media (min-width: 92.5625em) {
 	.category-page-header {
-		margin-left: 6rem;
+		margin-left: 4.5rem;
 		width: 100%;
+	}
+
+	.category-page-header {
+		text-align: left;
 	}
 }
 
