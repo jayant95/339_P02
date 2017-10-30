@@ -76,6 +76,10 @@
 		background-color: rgba(50, 123, 218, 0.85);
 		cursor: pointer;
 	}
+
+	.product-header-layer.category {
+	  bottom: -2.2rem;
+	}
 }
 
 @media(min-width: 40em){
